@@ -2,4 +2,89 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+  max-width: 98%;
+  max-width: 0 auto;
+}
+
+.container-big{
+  width: 1200px;
+}
+
+.container-small{
+  width: 1000px;
+}
+
+.font-max{
+  font-size: 4.875rem;
+}
+
+.font-middle{
+  font-size: 2.563rem;
+}
+
+.font-min{
+  font-size: 1.563rem;
+}
+
+.font-s{
+  font-size: 0.875rem;
+}
+
+.font-bold{
+  font-weight: 800;
+}
+
+.font-normal{
+  font-weight: 600;
+}
+
+.d-flex{
+  display: flex;
+}
+
+.al-i-center{
+align-items: center;
+}
+
+.menu{
+  justify-content: space-between;
+  padding: 0px 15px;
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  box-shadow: 0 1px 3px gray;
+}
+
+.list{
+  list-style: none;
+}
+
+.list li a{
+  text-decoration: none;
+  color: black;
+}
+
+.menu .l-list li{
+  padding-left: 40px;
+}
+
+.menu .r-list li{
+  padding: 8px 20px;
+}
+
+.button{
+  border: 1px solid black;
+}
+
+.button.b-button{
+  background-color: #0061FF;
+  border-color: #0061FF;
+}
+
+.button.b-button a{
+  color: white;
 }
