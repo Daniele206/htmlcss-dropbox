@@ -27,7 +27,7 @@
 }
 
 .font-middle{
-  font-size: 2.563rem;
+  font-size: 2.4rem;
 }
 
 .font-min{
@@ -46,12 +46,28 @@
   font-weight: 600;
 }
 
+.tex-center{
+  text-align: center;
+}
+
 .d-flex{
   display: flex;
 }
 
 .al-i-center{
   align-items: center;
+}
+
+.ico-padd-top{
+  padding-top: 2px;
+}
+
+.ico-blu{
+  color: #0061FF;
+}
+
+.just-center{
+  justify-content: center;
 }
 
 .flex-column{
@@ -62,7 +78,11 @@
   list-style: none;
 }
 
-.list li a, span a{
+a{
+  color: purple;
+}
+
+.list li a, span a, .card .b-button a{
   text-decoration: none;
   color: black;
 }
@@ -84,6 +104,13 @@
   padding: 10px 15px;
 }
 
+.card-button{
+  width: 100%;
+  text-align: center;
+  padding: 8px 0;
+  margin-top: 30px;
+}
+
 .menu{
   background-color: white;
   justify-content: space-between;
@@ -99,7 +126,7 @@
 }
 
 .menu .r-list li{
-  padding: 8px 20px;
+  padding: 7px 20px;
 }
 
 .jumbotron{
@@ -122,6 +149,80 @@
 
 #r-jumbo img{
   width: 102%;
-
 }
 
+.main-padding{
+  padding-top: 150px;
+  padding-bottom: 55px;
+}
+
+.radio{
+  padding-right: 50px;
+  padding-bottom: 50px;
+}
+
+.column{
+  width: 300px;
+}
+
+.column-central{
+  margin: 0 50px;
+}
+
+.card{
+  padding:0 40px;
+  border: 1px solid #d2d2d2;
+}
+
+.card-1{
+  padding-bottom: 210px;
+}
+
+.card-2{
+  height: calc(100% - 4.5vh);
+}
+
+.card-head{
+  height: 4.5vh;
+  border-top: 1px solid #d2d2d2;
+  border-left: 1px solid #d2d2d2;
+  border-right: 1px solid #d2d2d2;
+}
+
+.card-title{
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.card-price{
+  padding-bottom: 10px;
+}
+
+.price-time{
+  color: gray;
+}
+
+.list-card{
+  padding-top: 30px
+}
+
+.list-card li{
+  padding: 10px 0;
+}
+
+.list-card li div{
+  padding-left: 5px;
+}
+
+.acquista{
+  padding-top: 35px;
+}
+
+.acquista div{
+  border-bottom: 1px solid #d2d2d2;
+  padding-bottom: 40px;
+}
+
+.acquista a{
+  padding-left: 2.5px;
+}
