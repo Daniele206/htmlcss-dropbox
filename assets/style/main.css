@@ -132,6 +132,7 @@ a{
   width: 100%;
   height: 80px;
   box-shadow: 0 1px 3px gray;
+  z-index: 999;
 }
 
 .menu .l-list li{
@@ -402,3 +403,24 @@ a{
   width: 295px;
 }
 
+.domande-frequenti{
+  padding-top: 160px;
+  padding-bottom: 150px;
+}
+
+.domande-frequenti h2{
+  padding-bottom: 55px;
+}
+
+.domande-frequenti .domanda{
+  padding: 45px 0;
+  border-top: 1px solid #999999;
+}
+
+.domande-frequenti .chevron{
+  margin: 0 40px;
+}
+
+.domande-frequenti .contenitore-domande{
+  border-bottom: 1px solid #999999;
+}
