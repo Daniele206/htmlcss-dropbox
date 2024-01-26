@@ -308,18 +308,58 @@ a{
 
 .azziende .rettangolo{
   width: 100%;
-  background-color: yellow;
   aspect-ratio: 3/1;
 }
 
 .rettangolo .quadrato{
   width: calc(100% / 3);
   aspect-ratio: 1/1;
-  background-color: red;
+  background-color: #F5F5F5;
 }
 
 .quadrato .quadrato-piccolo{
   width: 50%;
   aspect-ratio: 1/1;
-  background-color: blue;
+
+}
+
+.quadrato .quadrato-piccolo img{
+  filter: invert(100%);
+  width: 50%;
+}
+
+.quadrato-selected{
+  border: 15px solid rgba(255, 255, 255, 0.4);
+}
+
+.quadrato .designit{
+  background-color: #A2D39B;
+}
+
+.quadrato .asu{
+  background-color: #61082B;
+}
+
+.quadrato .uf-florida{
+  background-color: #0093CE;
+}
+
+.quadrato .topps{
+  background-color: #FF1C1C;
+}
+
+.quadrato .w-b-r{
+  background-color: #D5001F;
+}
+
+.quadrato .hearts-corporation{
+  background-color: #B4D0E7;
+}
+
+.quadrato .lonely-planet{
+  background-color: #0D2481;
+}
+
+.quadrato .c-c-o{
+  background-color: #FFD830;
 }
