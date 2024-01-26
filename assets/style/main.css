@@ -445,3 +445,22 @@ a{
 .contenitore-domande .domanda:hover .chevron-up{
   display: block;
 }
+
+footer{
+  background-color: black;
+  color: white
+}
+
+.footer-lower{
+  padding: 50px 0;
+  color: #999999;
+}
+
+.footer-lower .national-arrow{
+  padding-left: 5px;
+  padding-top: 5px;
+}
+
+.footer-lower .earth{
+  padding-right: 10px;
+}
