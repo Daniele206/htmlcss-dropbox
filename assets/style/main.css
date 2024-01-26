@@ -70,6 +70,10 @@
   justify-content: center;
 }
 
+.just-between{
+  justify-content: space-between;
+}
+
 .flex-column{
   flex-direction: column;
 }
@@ -161,6 +165,10 @@ a{
   padding-bottom: 50px;
 }
 
+.box{
+  margin-bottom: 50px;
+}
+
 .column{
   width: 300px;
 }
@@ -180,6 +188,10 @@ a{
 
 .card-2{
   height: calc(100% - 4.5vh);
+}
+
+.card-4{
+  padding-bottom: 30px;
 }
 
 .card-head{
@@ -225,4 +237,10 @@ a{
 
 .acquista a{
   padding-left: 2.5px;
+}
+
+.button-orizontal-card{
+  width: calc(300px - 40px);
+  padding-left: 40px;
+
 }
