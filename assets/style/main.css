@@ -78,6 +78,10 @@
   flex-direction: column;
 }
 
+.no-wrap{
+  flex-wrap: wrap;
+}
+
 .list{
   list-style: none;
 }
@@ -92,7 +96,7 @@ a{
 }
 
 .button{
-  border: 1px solid black;
+  border: 1px solid #9B9B9B;
 }
 
 .button.b-button{
@@ -243,5 +247,57 @@ a{
 .button-orizontal-card{
   width: calc(300px - 40px);
   padding-left: 40px;
+}
 
+.contact{
+  padding-top: 100px;
+  padding-bottom: 165px;
+}
+
+.contact .img img{
+  width: 100%;
+}
+
+.contact .content{
+  width: 75%;
+  padding: 60px 50px;
+}
+
+.contact .content p{
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.contact .content-button{
+  width: 50%;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.contact .content-button a{
+  text-decoration: none;
+  color: black;
+}
+
+.details{
+  width: 300px;
+  padding-top: 60px;
+  padding-bottom: 70px;
+}
+
+.datails-central{
+  margin: 0 50px;
+}
+
+.details img{
+  width: 100%;
+}
+
+.details h2{
+  padding-bottom: 40px;
+}
+
+.team-user .n-user{
+  padding-top: 130px;
+  padding-bottom: 55px;
 }
