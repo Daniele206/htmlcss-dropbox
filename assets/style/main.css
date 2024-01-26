@@ -361,6 +361,10 @@ a{
   width: 50%;
 }
 
+.quadrato-selected{
+  border: 15px solid rgba(255, 255, 255, 0.0);
+}
+
 .quadrato-piccolo:hover.quadrato-selected{
   border: 15px solid rgba(255, 255, 255, 0.4);
 }
