@@ -418,9 +418,30 @@ a{
 }
 
 .domande-frequenti .chevron{
-  margin: 0 40px;
+  position: absolute;
+  right: 40px;
 }
 
 .domande-frequenti .contenitore-domande{
   border-bottom: 1px solid #999999;
+}
+
+.chevron-container{
+  position: relative;
+}
+
+.risposta{
+  padding-top: 40px;
+}
+
+.chevron-up{
+  display: none;
+}
+
+.contenitore-domande .domanda:hover .chevron-down{
+  display: none;
+}
+
+.contenitore-domande .domanda:hover .chevron-up{
+  display: block;
 }
