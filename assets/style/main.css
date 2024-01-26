@@ -311,7 +311,7 @@ a{
   padding-bottom: 55px;
 }
 
-.azziende .rettangolo{
+.aziende .rettangolo{
   width: 100%;
   aspect-ratio: 3/1;
 }
@@ -386,3 +386,19 @@ a{
 .quadrato .c-c-o{
   background-color: #FFD830;
 }
+
+.dropbox-busines{
+  background-color: #B4D0E7;
+  padding: 135px 0;
+}
+
+.dropbox-busines h2{
+  color: #61082B;
+}
+
+.dropbox-busines .busines-botton{
+  background-color: white;
+  height: 45px;
+  width: 295px;
+}
+
