@@ -91,6 +91,11 @@
   list-style: none;
 }
 
+.link-fix{
+  text-decoration: none;
+  color: white;
+}
+
 a{
   color: purple;
 }
