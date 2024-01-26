@@ -136,7 +136,8 @@ a{
 .jumbotron{
   padding-top: 80px;
   background-color: #B4D0E7;
-  height: 89vh;
+  height: 87vh;
+  min-height: 710px;
 }
 
 #title{
@@ -148,11 +149,11 @@ a{
 }
 
 #l-jumbo{
-  width: 75%;
+  width: 70%;
 }
 
 #r-jumbo img{
-  width: 102%;
+  width: 100%;
 }
 
 .main-padding{
