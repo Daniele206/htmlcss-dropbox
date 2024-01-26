@@ -78,7 +78,7 @@
   flex-direction: column;
 }
 
-.no-wrap{
+.wrap{
   flex-wrap: wrap;
 }
 
@@ -297,7 +297,29 @@ a{
   padding-bottom: 40px;
 }
 
+.team-user{
+  padding-bottom: 150px;
+}
+
 .team-user .n-user{
   padding-top: 130px;
   padding-bottom: 55px;
+}
+
+.azziende .rettangolo{
+  width: 100%;
+  background-color: yellow;
+  aspect-ratio: 3/1;
+}
+
+.rettangolo .quadrato{
+  width: calc(100% / 3);
+  aspect-ratio: 1/1;
+  background-color: red;
+}
+
+.quadrato .quadrato-piccolo{
+  width: 50%;
+  aspect-ratio: 1/1;
+  background-color: blue;
 }
