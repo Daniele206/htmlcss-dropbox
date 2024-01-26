@@ -91,6 +91,10 @@
   list-style: none;
 }
 
+.c-p{
+  cursor: pointer;
+}
+
 .link-fix{
   text-decoration: none;
   color: white;
