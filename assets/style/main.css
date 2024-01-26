@@ -46,6 +46,11 @@
   font-weight: 600;
 }
 
+.overflow{
+  overflow: auto;
+  max-height: 320px;
+}
+
 .tex-center{
   text-align: center;
 }
@@ -317,10 +322,28 @@ a{
   background-color: #F5F5F5;
 }
 
+.quadrato .description{
+  padding: 50px;
+}
+
+.quadrato .description img{
+  width: 50%;
+}
+
+.quadrato .description .autore{
+  padding-top: 55px;
+}
+
+.quadrato .border{
+  padding-top: 40px;
+  margin-bottom: 40px;
+  width: 105px;
+  border-bottom: 1px solid #d2d2d2;
+}
+
 .quadrato .quadrato-piccolo{
   width: 50%;
   aspect-ratio: 1/1;
-
 }
 
 .quadrato .quadrato-piccolo img{
