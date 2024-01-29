@@ -194,13 +194,32 @@ a{
   top: 100%;
   transition: 0.5s;
   color:black;
-  padding-bottom: 400px;
+  padding-bottom: 435px;
   transition: 0.5s;
   background-color: rgb(240, 240, 240);
 }
 
 .tendina div{
   padding: 10px 0;
+}
+
+.tendina div i{
+  color: #0061FF;
+  background-color: white;
+  padding: 4px;
+  margin-right: 4px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  transition: 0.5;
+  color: transparent;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.menu .l-list li:hover .tendina div i{
+  color: #0061FF;
+  background-color: white;
+  border: 1px solid gray;
 }
 
 .menu .l-list li:hover{
