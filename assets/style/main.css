@@ -151,16 +151,62 @@ a{
   z-index: 999;
 }
 
+.menu .l-list{
+  padding-left: 20px;
+}
+
 .menu .l-list li{
-  padding-left: 40px;
+  padding: 0 20px;
 }
 
 .menu .r-list li{
-  padding: 7px 20px;
+  padding: 0 20px;
 }
 
+.menu .r-list,.l-list li a{
+  line-height: 80px;
+}
 
+.menu-button-list{
+  position: relative;
+}
 
+.tendina{
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 250px;
+  background-color: red;
+  padding: 10px 20px;
+  display: none;
+}
+
+.tendina div{
+  padding: 10px 0;
+}
+
+.menu .l-list li:hover{
+  background-color: rgb(240, 240, 240);
+}
+
+.menu .l-list li:hover .tendina{
+  display: block;
+}
+
+.menu .r-list .menu-button:hover{
+  background-color: rgb(240, 240, 240);
+}
+
+.menu .r-list li:hover .tendina{
+  display: block;
+}
+
+.inizia{
+  background-color: #0061FF;
+}
+.r-list .inizia a{
+  color: white;
+}
 
 .jumbotron{
   padding-top: 80px;
