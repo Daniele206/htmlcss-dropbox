@@ -114,8 +114,15 @@ a{
 }
 
 .button.b-button{
+  transition: 0.5s;
   background-color: #0061FF;
   border-color: #0061FF;
+}
+
+.button.b-button:hover{
+  transition: 0.5s;
+  background-color: #478cfb;
+  border-color: #478cfb;
 }
 
 .button.b-button a{
@@ -287,11 +294,17 @@ a{
   width: 50%;
   text-align: center;
   padding: 10px 0;
+  transition: 0.5s;
 }
 
 .contact .content-button a{
   text-decoration: none;
   color: black;
+}
+
+.contact .content-button:hover{
+  transition: 0.5s;
+  background-color: rgba(240,240,240);
 }
 
 .details{
@@ -362,10 +375,12 @@ a{
 }
 
 .quadrato-selected{
+  transition: 0.5s;
   border: 15px solid rgba(255, 255, 255, 0.0);
 }
 
 .quadrato-piccolo:hover.quadrato-selected{
+  transition: 0.5s;
   border: 15px solid rgba(255, 255, 255, 0.4);
 }
 
@@ -411,9 +426,15 @@ a{
 }
 
 .dropbox-busines .busines-botton{
+  transition: 0.5s;
   background-color: white;
   height: 45px;
   width: 295px;
+}
+
+.dropbox-busines .busines-botton:hover{
+  transition: 0.5s;
+  background-color: rgb(240, 240, 240);
 }
 
 .domande-frequenti{
@@ -443,10 +464,6 @@ a{
   position: relative;
 }
 
-.risposta{
-  padding-top: 40px;
-}
-
 .chevron-up{
   display: none;
 }
@@ -457,6 +474,19 @@ a{
 
 .contenitore-domande .domanda:hover .chevron-up{
   display: block;
+}
+
+.contenitore-domande .domanda .risposta{
+  transition: 0.5s;
+  height: 0px;
+  color: transparent
+}
+
+.contenitore-domande .domanda:hover .risposta{
+  transition: 0.5s;
+  height: 100%;
+  color:black;
+  padding-top: 40px;
 }
 
 footer{
