@@ -159,6 +159,9 @@ a{
   padding: 7px 20px;
 }
 
+
+
+
 .jumbotron{
   padding-top: 80px;
   background-color: #B4D0E7;
@@ -481,7 +484,6 @@ a{
   height: 0px;
   color: transparent;
 }
-
 
 .contenitore-domande .domanda:hover .risposta{
   transition: 0.5s;
