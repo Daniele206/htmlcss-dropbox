@@ -157,10 +157,12 @@ a{
 
 .menu .l-list li{
   padding: 0 20px;
+  transition: 0.5s;
 }
 
 .menu .r-list li{
   padding: 0 20px;
+  transition: 0.5s;
 }
 
 .menu .r-list,.l-list li a{
@@ -171,14 +173,30 @@ a{
   position: relative;
 }
 
+.menu:hover .tendina{
+  display: block;
+}
+
 .tendina{
   position: absolute;
-  top: 100%;
+  top: 75%;
   left: 0;
   width: 250px;
-  background-color: red;
+  background-color: white;
   padding: 10px 20px;
+  transition: 0.5s;
+  height: 0px;
+  color: transparent;
   display: none;
+}
+
+.menu .l-list li:hover .tendina{
+  top: 100%;
+  transition: 0.5s;
+  color:black;
+  padding-bottom: 400px;
+  transition: 0.5s;
+  background-color: rgb(240, 240, 240);
 }
 
 .tendina div{
@@ -186,14 +204,12 @@ a{
 }
 
 .menu .l-list li:hover{
+  transition: 0.5s;
   background-color: rgb(240, 240, 240);
 }
 
-.menu .l-list li:hover .tendina{
-  display: block;
-}
-
 .menu .r-list .menu-button:hover{
+  transition: 0.5s;
   background-color: rgb(240, 240, 240);
 }
 
@@ -203,7 +219,17 @@ a{
 
 .inizia{
   background-color: #0061FF;
+  height: 40px;
+  line-height: 40px;
+  align-self: center;
+  transition: 0.5s;
 }
+
+.inizia:hover{
+  transition: 0.5s;
+  background-color: #478cfb;
+}
+
 .r-list .inizia a{
   color: white;
 }
@@ -525,10 +551,15 @@ a{
   display: block;
 }
 
+.contenitore-domande:hover .domanda .risposta{
+  display: block;
+}
+
 .contenitore-domande .domanda .risposta{
   transition: 0.5s;
   height: 0px;
   color: transparent;
+  display: none;
 }
 
 .contenitore-domande .domanda:hover .risposta{
@@ -561,8 +592,6 @@ footer{
   line-height: 40px;
   list-style: none;
 }
-
-
 
 .footer-low{
   padding: 50px 0;
